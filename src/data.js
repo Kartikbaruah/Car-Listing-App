@@ -1,6 +1,8 @@
 {
     "vehicles" [
       {"car_name": "Model S", "brand": "Tesla", "price": 79999, "color": "Red", "image": "https://example.com/tesla-model-s.jpg"},
+      {"car_name": "Model S", "brand": "Tesla", "price": 79999, "color": "Red", "image": "https://example.com/tesla-model-s.jpg"},
+      {"car_name": "Model S", "brand": "Tesla", "price": 79999, "color": "Red", "image": "https://example.com/tesla-model-s.jpg"},
       {"car_name": "Mustang", "brand": "Ford", "price": 55999, "color": "Blue", "image": "https://example.com/ford-mustang.jpg"},
       {"car_name": "Civic", "brand": "Honda", "price": 24999, "color": "Black", "image": "https://example.com/honda-civic.jpg"},
       {"car_name": "Corolla", "brand": "Toyota", "price": 23999, "color": "White", "image": "https://example.com/toyota-corolla.jpg"},
