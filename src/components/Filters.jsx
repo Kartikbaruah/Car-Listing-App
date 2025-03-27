@@ -1,14 +1,15 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 const Filters = ({ onFilter }) => {
     const [price, setPrice] = useState("");
     const [color, setColor] = useState("");
     const [brand, setBrand] = useState("");
 
-    const handleFilterChange = () => {
-        onFilter({ price, color, brand });
-    };
+    useEffect(() => {
+        onFilter({ price, color, brand});
+    }, [price, color, brand]);
+    
   return (
     <div className='bg-white p-4 rounded-lg shadow-md flex flex-col md:flex-row gap-4 items-center justify-between'>
 
@@ -19,9 +20,8 @@ const Filters = ({ onFilter }) => {
             value={price}
             onChange={(e) => {
                 setPrice(e.target.value);
-                handleFilterChange();
             }}
-            className='ml-2 p-2 border rounded-md'
+            className='ml-2 p-1 border rounded-md'
             >
                 <option value="">Select</option>
                 <option value="low-high">Low to High</option>
@@ -38,9 +38,8 @@ const Filters = ({ onFilter }) => {
             value={color}
             onChange={(e) => {
                 setColor(e.target.value);
-                handleFilterChange();
             }}
-            className='ml-2 p-2 border rounded-md'
+            className='ml-2 p-1 border rounded-md'
             >
                 <option value="">Select</option>
                 <option value="Red">Red</option>
@@ -51,7 +50,6 @@ const Filters = ({ onFilter }) => {
                 <option value="Yellow">Yellow</option>
                 <option value="Silver">Silver</option>
                 <option value="Green">Green</option>
-                <option value="Brown">Brown</option>
             </select>
         </div>
 
@@ -62,9 +60,8 @@ const Filters = ({ onFilter }) => {
             value={brand}
             onChange={(e) => {
                 setBrand(e.target.value);
-                handleFilterChange();
             }}
-            className='ml-2 p-2 border rounded-md'
+            className='ml-2 p-1 border rounded-md'
             >
                 <option value="">Select</option>
                 <option value="Tesla">Tesla</option>

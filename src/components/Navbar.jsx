@@ -5,7 +5,7 @@ const Navbar = () => {
     const [showInput, setShowInput] = useState(false);
   
     return (
-        <div className='w-full h-screen flex justify-center items-center overflow-hidden relative'>
+        <div className='w-full flex justify-center items-center overflow-hidden relative'>
             <motion.nav
                 className='bg-white shadow-md py-4 px-6 flex justify-between items-center fixed top-0
                 w-full max-w-screen-lg mx-auto z-50'
