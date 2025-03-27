@@ -52,7 +52,6 @@ const Filters = ({ onFilter }) => {
                 <option value="Silver">Silver</option>
                 <option value="Green">Green</option>
                 <option value="Brown">Brown</option>
-                <option value="Blue">Blue</option>
             </select>
         </div>
 
@@ -68,36 +67,27 @@ const Filters = ({ onFilter }) => {
             className='ml-2 p-2 border rounded-md'
             >
                 <option value="">Select</option>
+                <option value="Tesla">Tesla</option>
+                <option value="Ford">Ford</option>
+                <option value="Honda">Honda</option>
+                <option value="BMW">BMW</option>
+                <option value="Audi">Audi</option>
+                <option value="Mercedes-Benz">Mercedes-Benz</option>
+                <option value="Nissan">Nissan</option>
+                <option value="Dodge">Dodge</option>
+                <option value="Jeep">Jeep</option>
+                <option value="Hyundai">Hyundai</option>
+                <option value="Lexus">Lexus</option>
+                <option value="Land Rover">Land Rover</option>
+                <option value="Subaru">Subaru</option>
+                <option value="Volkswagen">Volkswagen</option>
+                <option value="Bugatti">Bugatti</option>
+                <option value="Maserati">Maserati</option>
+                <option value="Volvo">Volvo</option>
+                <option value="Aston Martin">Aston Martin</option>
                 <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Toyota">Toyota</option>
+                <option value="Lamborghini">Lamborghini</option>
+                <option value="Porsche">Porsche</option>
             </select>
         </div>
     </div>
